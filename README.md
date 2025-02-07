@@ -13,5 +13,3 @@ Here are some fun projects that I have worked on!
 ![SQL](https://img.shields.io/badge/SQL-blue?logo=sql&logoColor=white)
 
 
-## 📫 Reach Me
-[![Email](https://img.shields.io/badge/-aryank09mail@gmail.com-D14836?logo=gmail&logoColor=white)](mailto:lazjosh@uw.edu)
