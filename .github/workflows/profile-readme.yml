@@ -1,0 +1,57 @@
+name: Update profile visuals
+
+on:
+  schedule:
+    # 02:00 America/Los_Angeles (UTC-8 in standard time)
+    - cron: "0 10 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/profile-readme.yml"
+      - ".github/3d-contrib-settings.json"
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate stats cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+        run: python scripts/generate_stats.py
+
+      - name: Generate 3D contribution skyline
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/3d-contrib-settings.json
+
+      # The normal chart has no setting for towers plus the activity radar only.
+      - name: Clean skyline
+        run: python scripts/clean_skyline.py
+
+      - name: Commit visuals
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets profile-3d-contrib
+          if git diff --staged --quiet; then
+            echo "No visual changes."
+          else
+            git commit -m "chore: refresh profile visuals"
+            git push
+          fi

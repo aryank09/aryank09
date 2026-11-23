@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Aryan Khanna, AI Engineer. CS + SE + DS at University of Washington. I build AI systems people can actually use, on the phone, in the browser, and on the machine in front of you.">
+<title>Aryan Khanna</title>
+<style><![CDATA[
+  .kicker { font: 500 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0.22em; text-transform: uppercase; }
+  .word { font: 600 78px ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; letter-spacing: 0.04em; }
+  .sub { font: 500 15px ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; letter-spacing: 0.04em; }
+  .caption { font: 500 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0.18em; text-transform: uppercase; }
+  @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes draw { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  @keyframes pop { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+  .tagline { font: 500 14px ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; letter-spacing: 0.04em; opacity: 1; }
+  .letter { opacity: 1; animation: rise 0.7s cubic-bezier(0.23, 1, 0.32, 1) forwards; }
+  .ghost { opacity: 1; }
+  .line { transform-box: fill-box; transform-origin: left center; animation: draw 0.8s cubic-bezier(0.23, 1, 0.32, 1) 0.2s forwards; }
+  .fade { opacity: 1; animation: rise 0.6s cubic-bezier(0.23, 1, 0.32, 1) forwards; }
+  .dot { opacity: 1; animation: pop 0.45s cubic-bezier(0.23, 1, 0.32, 1) forwards; }
+  .panel { opacity: 1; animation: rise 0.7s cubic-bezier(0.23, 1, 0.32, 1) 0.15s forwards; }
+  .tagline { animation: rise 0.6s cubic-bezier(0.23, 1, 0.32, 1) forwards; }
+  @media (prefers-reduced-motion: reduce) {
+    .letter, .line, .fade, .dot, .panel, .tagline { animation: none; opacity: 1; }
+  }
+]]></style>
+<rect width="1200" height="380" fill="#F4F1EC"/>
+<text class="kicker fade" x="48" y="52" fill="#6A6762">aryank09  ·  Washington</text>
+<line class="line" x1="48" y1="72" x2="760" y2="72" stroke="#E2DDD6" stroke-width="1"/>
+<text class="word ghost" x="50.0" y="170" fill="#D4CFC7">A</text>
+<text class="word letter" style="animation-delay:0.060s" x="48.0" y="168" fill="#161616">A</text>
+<text class="word ghost" x="114.16" y="170" fill="#D4CFC7">R</text>
+<text class="word letter" style="animation-delay:0.105s" x="112.16" y="168" fill="#161616">R</text>
+<text class="word ghost" x="178.32" y="170" fill="#D4CFC7">Y</text>
+<text class="word letter" style="animation-delay:0.150s" x="176.32" y="168" fill="#161616">Y</text>
+<text class="word ghost" x="242.48" y="170" fill="#D4CFC7">A</text>
+<text class="word letter" style="animation-delay:0.195s" x="240.48" y="168" fill="#161616">A</text>
+<text class="word ghost" x="306.64" y="170" fill="#D4CFC7">N</text>
+<text class="word letter" style="animation-delay:0.240s" x="304.64" y="168" fill="#161616">N</text>
+<text class="word ghost" x="50.0" y="250" fill="#D4CFC7">K</text>
+<text class="word letter" style="animation-delay:0.280s" x="48.0" y="248" fill="#161616">K</text>
+<text class="word ghost" x="114.16" y="250" fill="#D4CFC7">H</text>
+<text class="word letter" style="animation-delay:0.325s" x="112.16" y="248" fill="#161616">H</text>
+<text class="word ghost" x="178.32" y="250" fill="#D4CFC7">A</text>
+<text class="word letter" style="animation-delay:0.370s" x="176.32" y="248" fill="#161616">A</text>
+<text class="word ghost" x="242.48" y="250" fill="#D4CFC7">N</text>
+<text class="word letter" style="animation-delay:0.415s" x="240.48" y="248" fill="#161616">N</text>
+<text class="word ghost" x="306.64" y="250" fill="#D4CFC7">N</text>
+<text class="word letter" style="animation-delay:0.460s" x="304.64" y="248" fill="#161616">N</text>
+<text class="word ghost" x="370.79999999999995" y="250" fill="#D4CFC7">A</text>
+<text class="word letter" style="animation-delay:0.505s" x="368.79999999999995" y="248" fill="#161616">A</text>
+<text class="sub fade" style="animation-delay:0.55s" x="48" y="292" fill="#6A6762">AI Engineer. CS + SE + DS at University of Washington</text>
+<text class="tagline" style="animation-delay:0.62s" x="48" y="324" fill="#6A6762">I build AI systems people can actually use,</text>
+<text class="tagline" style="animation-delay:0.68s" x="48" y="346" fill="#6A6762">on the phone, in the browser, and on the machine in front of you.</text>
+<g class="panel">
+<rect x="836" y="54" width="316" height="232" rx="8" fill="#EBE7E1" stroke="#E2DDD6" stroke-width="1"/>
+<rect class="dot" style="animation-delay:0.280s" x="874" y="78" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.292s" x="888" y="78" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.304s" x="902" y="78" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.316s" x="860" y="92" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.328s" x="916" y="92" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.340s" x="860" y="106" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.352s" x="916" y="106" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.364s" x="860" y="120" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.376s" x="874" y="120" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.388s" x="888" y="120" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.400s" x="902" y="120" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.412s" x="916" y="120" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.424s" x="860" y="134" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.436s" x="916" y="134" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.448s" x="860" y="148" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.460s" x="916" y="148" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.472s" x="860" y="162" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.484s" x="916" y="162" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.496s" x="958" y="78" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.508s" x="1014" y="78" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.520s" x="958" y="92" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.532s" x="1000" y="92" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.544s" x="958" y="106" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.556s" x="986" y="106" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.568s" x="958" y="120" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.580s" x="972" y="120" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.592s" x="958" y="134" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.604s" x="986" y="134" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.616s" x="958" y="148" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.628s" x="1000" y="148" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.640s" x="958" y="162" width="9" height="9" rx="1.5" fill="#161616"/>
+<rect class="dot" style="animation-delay:0.652s" x="1014" y="162" width="9" height="9" rx="1.5" fill="#161616"/>
+<text class="caption" x="856" y="262" fill="#6A6762">Aryan Khanna</text>
+</g>
+</svg>

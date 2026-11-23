@@ -1,16 +1,26 @@
-## Hi there 👋
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
+    <img src="assets/header-dark.svg" alt="Aryan Khanna, AI Engineer. CS + SE + DS at University of Washington. I build AI systems people can actually use, on the phone, in the browser, and on the machine in front of you." width="100%" />
+  </picture>
+</div>
 
-<!--
-**aryank09/aryank09** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg" />
+    <img src="assets/stats-dark.svg" alt="Public GitHub stats for aryank09" width="100%" />
+  </picture>
+</div>
 
-Here are some ideas to get you started:
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-skyline-light.svg" />
+    <img src="profile-3d-contrib/profile-skyline-dark.svg" alt="3D contribution skyline for aryank09" width="100%" />
+  </picture>
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <a href="https://github.com/aryank09">github.com/aryank09</a>
+  · <a href="https://www.linkedin.com/in/aryankhanna9/">LinkedIn</a>
+  · Washington
+</p>
